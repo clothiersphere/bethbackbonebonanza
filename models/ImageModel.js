@@ -7,9 +7,8 @@ var ImageModel = Backbone.Model.extend({
 			favorite: 'no'
 		},
 		display: function (){
-
 			this.trigger('display',this);
-			// console.log("display triggered on individual model")
+		
 		},
 		makeFavorite: function (){
 			this.trigger('makeFavorite',this);

@@ -7,11 +7,11 @@ var AppView = Backbone.View.extend({
 	},
 
 	render: function(){
-		console.log("HEEEEEE", this.bigpicView.$el);
 		return this.$el.html([
 			this.bigpicView.$el,
-			this.imagesView.$el
 			// this.favoriteView.$el,
+			this.imagesView.$el
+			
 	]);
 	}	
 });

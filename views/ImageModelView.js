@@ -5,9 +5,7 @@ var ImageModelView = Backbone.View.extend({
 
 	events: {
 		'click': function (){
-			// console.log('click registered in imagemodelview')
 			this.model.display();
-			//this.trigger
 		}
 	},
 	render: function (){
